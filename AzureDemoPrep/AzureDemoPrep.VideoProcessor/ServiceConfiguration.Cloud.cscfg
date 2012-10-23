@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="AzureDemoPrep.VideoProcessor" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="1" osVersion="*" schemaVersion="2012-05.1.7">
+  <Role name="VideoProcessorRole">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="DatabaseConnectionString" value="Server=tcp:mlg740kuch.database.windows.net,1433;Database=azuredemoprep;User ID=azuredemoprep@mlg740kuch;Password=csgpro2012!;Trusted_Connection=False;Encrypt=True;Connection Timeout=30;" />
+      <Setting name="StorageConnectionString" value="DefaultEndpointsProtocol=http;AccountName=azuredemoprep;AccountKey=jAWeg8lptGvnYZ6C1p5q2Wu27iHsxcDBvPh5MFyI0appCEOjnFZtcb1Pho83xyw9H8ioaRd9z52kOx16EOGKrg==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=azuredemoprep;AccountKey=jAWeg8lptGvnYZ6C1p5q2Wu27iHsxcDBvPh5MFyI0appCEOjnFZtcb1Pho83xyw9H8ioaRd9z52kOx16EOGKrg==" />
+      <Setting name="ServiceBusQueueName" value="videostoprocess" />
+      <Setting name="Microsoft.ServiceBus.ConnectionString" value="Endpoint=sb://azuredemoprep.servicebus.windows.net/;SharedSecretIssuer=owner;SharedSecretValue=2htEKKpFEw0ZakfI0nyx0C89qlZPkDhXm4lnSP961n8=" />
+      <Setting name="MediaServicesAccountName" value="azuredemoprep" />
+      <Setting name="MediaServicesAccountKey" value="9EgWAX7D/YqcvbqGGaU3M0nUK9wz3oaUv1E9RFkSrZU=" />
+    </ConfigurationSettings>
+  </Role>
+</ServiceConfiguration>

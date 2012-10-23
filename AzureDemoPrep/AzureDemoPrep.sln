@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDemoPrep.Site", "Azure
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureDemoPrep.Shared", "AzureDemoPrep.Shared\AzureDemoPrep.Shared.csproj", "{FA751B79-EC60-49D5-9C6D-AA9DF9ECF2FF}"
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "AzureDemoPrep.VideoProcessor", "AzureDemoPrep.VideoProcessor\AzureDemoPrep.VideoProcessor.ccproj", "{520B7ED1-671C-422E-BCF0-FDCD30ED25DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoProcessorRole", "VideoProcessorRole\VideoProcessorRole.csproj", "{15B3E0D2-6217-493A-A690-158C497F5318}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +23,14 @@ Global
 		{FA751B79-EC60-49D5-9C6D-AA9DF9ECF2FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FA751B79-EC60-49D5-9C6D-AA9DF9ECF2FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FA751B79-EC60-49D5-9C6D-AA9DF9ECF2FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{520B7ED1-671C-422E-BCF0-FDCD30ED25DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{520B7ED1-671C-422E-BCF0-FDCD30ED25DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{520B7ED1-671C-422E-BCF0-FDCD30ED25DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{520B7ED1-671C-422E-BCF0-FDCD30ED25DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15B3E0D2-6217-493A-A690-158C497F5318}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
